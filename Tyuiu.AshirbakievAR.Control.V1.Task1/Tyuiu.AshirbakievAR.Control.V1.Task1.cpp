@@ -10,7 +10,7 @@ int main()
     int a;
     std::cout << "Введите трехзначное число\n";
     std::cin >> a;
-    std::cout << "Произведение цифр трехзначного числа равно "<< date->Control(a);
+    std::cout << "Произведение цифр трехзначного числа равно "<< date->Control(a)<<std::endl;
 
 }
 

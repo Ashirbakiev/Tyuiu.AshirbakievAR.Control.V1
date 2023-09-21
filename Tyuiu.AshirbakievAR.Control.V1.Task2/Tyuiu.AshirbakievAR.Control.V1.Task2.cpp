@@ -16,7 +16,7 @@ int main()
 	std::cin >> y;
 	std::cout << "Введите переменную z\n";
 	std::cin >> z;
-	std::cout << "Значение арифметического выражения 5+(2x-z)/(3+z^2) равно "<< date->Proizved(x,y,z);
+	std::cout << "Значение арифметического выражения 5+(2x-z)/(3+z^2) равно "<< date->Proizved(x,y,z)<< std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
